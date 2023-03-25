@@ -76,8 +76,6 @@ let currentCards = [...CARDS, ...CARDS];
 let isPaused = false;
 let counter = CARDS.length + 10;
 let isLose = false;
-
-// Fisher--Yates Algorithm -- https://bost.ocks.org/mike/shuffle/
 function shuffle(array) {
     let counter = array.length,
         temp,
